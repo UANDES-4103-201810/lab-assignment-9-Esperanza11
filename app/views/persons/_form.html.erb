@@ -7,6 +7,18 @@
   </div>
   <div>
     <%=label_tag 'first_name', 'First Name'%>
-
+    <%= text_field(:person, :first_name) %>
+  </div>
+  <div>
+    <%=label_tag 'last_name', 'Last Name'%>
+    <%= text_field(:person, :last_name) %>
+  </div>
+  <div>
+    <%=label_tag 'birthday', 'Birthday'%>
+    <%= text_field(:person, :birthday) %>
+  </div>
+  <div>
+    <%=label_tag 'description', 'Description'%>
+    <%= text_field(:person, :description) %>
   </div>
 <% end %>
