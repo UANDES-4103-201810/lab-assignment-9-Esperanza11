@@ -1,0 +1,12 @@
+<%= form_tag do %>
+  <div>
+  <%= radio_button_tag(:person, "director") %>
+  <%= label_tag(:person_d, "Director") %>
+  <%= radio_button_tag(:person, "actor") %>
+  <%= label_tag(:person_a, "Actor") %>
+  </div>
+  <div>
+    <%=label_tag 'first_name', 'First Name'%>
+
+  </div>
+<% end %>
